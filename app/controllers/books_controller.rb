@@ -19,7 +19,7 @@ before_action :correct_user, only: [:edit, :update]
     @book.user_id =current_user.id
     @user =current_user
     if @book.save
-      redirect_to books_path(@book), notice: "You have created book successfully."
+      redirect_to book_path(@book), notice: "You have created book successfully."
     else
       @books = Book.all
       render 'index'

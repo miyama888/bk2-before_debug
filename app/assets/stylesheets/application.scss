@@ -35,9 +35,12 @@ body {
 #error_explanation {
   color: red;
 }
-ul{
+p, ol, ul, td{
 	font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
-    margin: 33px;
+    margin: 20px;
+}
+.foot{
+	margin: 0 0 10px;
 }
